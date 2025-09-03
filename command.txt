@@ -1,0 +1,18 @@
+
+// check clang
+clang++ --version
+
+//if note info install
+xcode-select --install
+
+
+// create programm
+clang++ main.cpp -o myprogram
+
+//Instead of opening it in VS Code, you should run it in the terminal:
+./myprogram
+
+//create
+clang++ Arrays.cpp -o ArraysProgram
+//Run
+./ArraysProgram
